@@ -9,7 +9,7 @@ const projectPreviews: Record<string, { src: string; alt: string; url: string }>
   'hub-seguridad': {
     src: '/images/projects/edtech.svg',
     alt: 'Plataforma LMS & Streaming de Cursos con Stripe',
-    url: 'https://hubseguridad.com/courses',
+    url: 'https://learn-platform.dev/courses',
   },
   'b2b-platform': {
     src: '/images/projects/b2b.svg',

@@ -77,7 +77,7 @@ src/
 
 4. **Proyectos Destacados (Bento Grid):**
    - Presentación de 10 proyectos reales en formato descriptivo confidencial (sin divulgación de dependencias institucionales específicas ni enlaces externos):
-     - HUB Seguridad (Cursos y pagos Stripe)
+     - Plataforma EdTech de formación y cursos online (Stripe y streaming)
      - Plataforma empresarial B2B (Multi-tenant, landing generator, inventarios)
      - Expediente digital offline (Sincronización tolerante a desconexión)
      - Sistemas institucionales de gestión y seguimiento
