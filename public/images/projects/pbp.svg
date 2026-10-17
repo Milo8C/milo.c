@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#061a14"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg6)"/>
+  <rect x="0" y="0" width="960" height="56" fill="#0f172a"/>
+  <circle cx="36" cy="28" r="6" fill="#ef4444"/><circle cx="56" cy="28" r="6" fill="#f59e0b"/><circle cx="76" cy="28" r="6" fill="#10b981"/>
+  <text x="110" y="34" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold">NETWORK PRO · Plataforma de Mentoring 1-a-1 &amp; Membresías Exclusivas</text>
+  <rect x="790" y="14" width="135" height="28" rx="6" fill="#064e3b"/>
+  <text x="806" y="32" fill="#6ee7b7" font-family="monospace" font-size="11">Stripe Subscriptions</text>
+
+  <!-- Left: Mentor profile and booking -->
+  <g transform="translate(40, 80)">
+    <rect width="420" height="420" rx="14" fill="#0b1713" stroke="#065f46" stroke-width="1.5"/>
+    <text x="24" y="36" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Agenda de Mentoría One-to-One</text>
+    
+    <g transform="translate(24, 60)">
+      <rect width="372" height="100" rx="8" fill="#042f2e" stroke="#10b981" stroke-width="1"/>
+      <circle cx="50" cy="50" r="28" fill="url(#emeraldGrad)"/>
+      <text x="40" y="58" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="18" font-weight="bold">MB</text>
+      <text x="96" y="42" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Mentoría en Expansión &amp; Capital</text>
+      <text x="96" y="62" fill="#6ee7b7" font-family="-apple-system, sans-serif" font-size="12">Sesión privada de 60 minutos</text>
+      <text x="96" y="82" fill="#34d399" font-family="monospace" font-size="12" font-weight="bold">$150 USD · Facturado con Stripe</text>
+    </g>
+
+    <!-- Calendar slots -->
+    <g transform="translate(24, 180)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Horarios Disponibles para esta Semana:</text>
+      <g transform="translate(0, 30)">
+        <rect width="115" height="40" rx="6" fill="#0f766e"/>
+        <text x="14" y="24" fill="#ffffff" font-family="monospace" font-size="11">Jue 10:00 AM</text>
+        
+        <rect x="128" y="0" width="115" height="40" rx="6" fill="#134e4a"/>
+        <text x="142" y="24" fill="#ccfbf1" font-family="monospace" font-size="11">Jue 04:00 PM</text>
+
+        <rect x="256" y="0" width="115" height="40" rx="6" fill="#134e4a"/>
+        <text x="270" y="24" fill="#ccfbf1" font-family="monospace" font-size="11">Vie 11:30 AM</text>
+      </g>
+    </g>
+
+    <g transform="translate(24, 280)">
+      <rect width="372" height="96" rx="8" fill="#020617" stroke="#064e3b" stroke-width="1"/>
+      <text x="16" y="28" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Garantía de Membresía VIP</text>
+      <text x="16" y="50" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Acceso ilimitado a biblioteca de recursos, deals de socios</text>
+      <text x="16" y="68" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">y sala de networking mensual privada.</text>
+    </g>
+  </g>
+
+  <!-- Right: Payments & Subscription Management -->
+  <g transform="translate(490, 80)">
+    <rect width="430" height="420" rx="14" fill="#0b1713" stroke="#10b981" stroke-width="1.5"/>
+    <text x="24" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Suscripción &amp; Procesamiento Stripe</text>
+
+    <g transform="translate(24, 60)">
+      <rect width="382" height="130" rx="8" fill="#020617" stroke="#1e293b" stroke-width="1"/>
+      <text x="20" y="30" fill="#94a3b8" font-family="monospace" font-size="11">PLAN SELECCIONADO</text>
+      <text x="20" y="56" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="18" font-weight="bold">Membresía Empresarial Anual</text>
+      <text x="20" y="80" fill="#34d399" font-family="monospace" font-size="16" font-weight="bold">$1,200 USD / año</text>
+      <text x="20" y="104" fill="#64748b" font-family="-apple-system, sans-serif" font-size="11">Cobro recurrente automático · Cancela cuando quieras</text>
+    </g>
+
+    <g transform="translate(24, 210)">
+      <rect width="382" height="170" rx="8" fill="#042f2e" stroke="#059669" stroke-width="1"/>
+      <text x="20" y="32" fill="#a7f3d0" font-family="-apple-system, sans-serif" font-size="13" font-weight="bold">Estado de Cuenta &amp; Notificaciones</text>
+      <text x="20" y="58" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12">✓ Pasarela Stripe Connect integrada</text>
+      <text x="20" y="84" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12">✓ Recordatorios automatizados por correo y WhatsApp</text>
+      <text x="20" y="110" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12">✓ Dashboard para mentores con métricas de ingresos</text>
+      
+      <rect x="20" y="126" width="342" height="32" rx="6" fill="#10b981"/>
+      <text x="120" y="146" fill="#022c22" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Confirmar y Reservar Sesión</text>
+    </g>
+  </g>
+</svg>

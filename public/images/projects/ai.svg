@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg5" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#110e20"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="purpleGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg5)"/>
+  <rect x="0" y="0" width="960" height="56" fill="#0f172a"/>
+  <circle cx="36" cy="28" r="6" fill="#ef4444"/><circle cx="56" cy="28" r="6" fill="#f59e0b"/><circle cx="76" cy="28" r="6" fill="#10b981"/>
+  <text x="110" y="34" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold">SYNAPSE AI · Generación de Perfiles Inteligentes &amp; Vector Embeddings</text>
+  <rect x="760" y="14" width="165" height="28" rx="6" fill="#581c87"/>
+  <text x="778" y="32" fill="#e9d5ff" font-family="monospace" font-size="11">⚡ LLM Inferencia: 180ms</text>
+
+  <!-- Left: Raw Input vs AI Extraction -->
+  <g transform="translate(40, 80)">
+    <rect width="420" height="420" rx="14" fill="#0d111e" stroke="#2e1065" stroke-width="1.5"/>
+    <text x="24" y="36" fill="#e9d5ff" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Entrada No Estructurada &amp; Prompt</text>
+    <rect x="24" y="56" width="372" height="150" rx="8" fill="#020617" stroke="#1e293b" stroke-width="1"/>
+    <text x="36" y="80" fill="#94a3b8" font-family="monospace" font-size="11">POST /api/v1/extract-profile</text>
+    <text x="36" y="104" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">"Directora de Operaciones con 14 años de trayectoria</text>
+    <text x="36" y="124" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">en optimización de cadenas de suministro, certificación Six Sigma</text>
+    <text x="36" y="144" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12">Black Belt y liderazgo de equipos multidisciplinarios..."</text>
+    
+    <g transform="translate(24, 226)">
+      <rect width="372" height="60" rx="8" fill="#1e1b4b" stroke="#7c3aed" stroke-width="1"/>
+      <text x="16" y="24" fill="#c084fc" font-family="monospace" font-size="10">VECTOR EMBEDDING MODEL</text>
+      <text x="16" y="44" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">text-embedding-3-small (1536 dimensiones cosine match 0.94)</text>
+    </g>
+
+    <g transform="translate(24, 306)">
+      <rect width="372" height="64" rx="8" fill="#020617" stroke="#334155" stroke-width="1"/>
+      <text x="16" y="26" fill="#a855f7" font-family="monospace" font-size="11">Costo por Inferencia / Token Caching</text>
+      <text x="16" y="48" fill="#10b981" font-family="monospace" font-size="12">$0.00015 por perfil (Reducción 78% vía caché)</text>
+    </g>
+  </g>
+
+  <!-- Right: Structured Output Profile Card -->
+  <g transform="translate(490, 80)">
+    <rect width="430" height="420" rx="14" fill="#0d111e" stroke="#7c3aed" stroke-width="1.5"/>
+    <text x="24" y="36" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Ficha Estructurada &amp; Scoring IA</text>
+    
+    <g transform="translate(24, 60)">
+      <rect width="382" height="90" rx="8" fill="#1e1b4b"/>
+      <circle cx="45" cy="45" r="25" fill="url(#purpleGrad)"/>
+      <text x="36" y="52" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="18" font-weight="bold">DO</text>
+      <text x="86" y="38" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="15" font-weight="bold">Directora de Operaciones &amp; Supply</text>
+      <text x="86" y="58" fill="#c084fc" font-family="-apple-system, sans-serif" font-size="12">Nivel de Afinidad: 98% de compatibilidad</text>
+    </g>
+
+    <g transform="translate(24, 166)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Competencias Clave Extraídas:</text>
+      <g transform="translate(0, 30)">
+        <rect width="140" height="28" rx="14" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
+        <text x="16" y="18" fill="#e9d5ff" font-family="monospace" font-size="11">Six Sigma Black</text>
+        <rect x="150" y="0" width="130" height="28" rx="14" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
+        <text x="166" y="18" fill="#e9d5ff" font-family="monospace" font-size="11">Supply Chain</text>
+        <rect x="290" y="0" width="92" height="28" rx="14" fill="#3b0764" stroke="#a855f7" stroke-width="1"/>
+        <text x="306" y="18" fill="#e9d5ff" font-family="monospace" font-size="11">ERP Sync</text>
+      </g>
+    </g>
+
+    <g transform="translate(24, 250)">
+      <rect width="382" height="120" rx="8" fill="#020617" stroke="#1e293b" stroke-width="1"/>
+      <text x="16" y="28" fill="#cbd5e1" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Recomendación Automatizada Generada:</text>
+      <text x="16" y="52" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">"Candidata óptima para proyectos de reingeniería de almacenes</text>
+      <text x="16" y="70" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">y automatización de despachos de escala nacional."</text>
+      <text x="16" y="98" fill="#34d399" font-family="monospace" font-size="11">✓ Validación semántica completada</text>
+    </g>
+  </g>
+</svg>

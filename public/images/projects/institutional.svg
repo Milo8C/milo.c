@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg4" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#09141d"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="540" fill="url(#bg4)"/>
+  <!-- Top Bar -->
+  <rect x="0" y="0" width="960" height="56" fill="#0f172a"/>
+  <circle cx="36" cy="28" r="6" fill="#ef4444"/><circle cx="56" cy="28" r="6" fill="#f59e0b"/><circle cx="76" cy="28" r="6" fill="#10b981"/>
+  <text x="110" y="34" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="14" font-weight="bold">SISTEMA INTEGRAL DE GESTIÓN Y FISCALIZACIÓN INSTITUCIONAL</text>
+  <rect x="800" y="14" width="130" height="28" rx="6" fill="#1e293b"/>
+  <text x="815" y="32" fill="#38bdf8" font-family="monospace" font-size="11">Rol: Auditor Senior</text>
+
+  <!-- Left: Approval Flow Pipeline -->
+  <g transform="translate(40, 80)">
+    <rect width="880" height="420" rx="14" fill="#0b1322" stroke="#1e293b" stroke-width="1.5"/>
+    <text x="30" y="38" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="16" font-weight="bold">Trazabilidad de Trámites y Flujos de Aprobación Multinivel</text>
+    
+    <!-- Stage indicators -->
+    <g transform="translate(30, 60)">
+      <!-- Stage 1 -->
+      <rect width="180" height="50" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+      <text x="16" y="24" fill="#a7f3d0" font-family="monospace" font-size="10">ETAPA 1: RECEPCIÓN</text>
+      <text x="16" y="40" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Ingreso de Solicitud ✓</text>
+
+      <!-- Stage 2 -->
+      <g transform="translate(200, 0)">
+        <rect width="180" height="50" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1"/>
+        <text x="16" y="24" fill="#a7f3d0" font-family="monospace" font-size="10">ETAPA 2: VALIDACIÓN</text>
+        <text x="16" y="40" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">Revisión Jurídica ✓</text>
+      </g>
+
+      <!-- Stage 3 Active -->
+      <g transform="translate(400, 0)">
+        <rect width="200" height="50" rx="8" fill="#1e3a8a" stroke="#3b82f6" stroke-width="1.5"/>
+        <text x="16" y="24" fill="#93c5fd" font-family="monospace" font-size="10">ETAPA 3: DICTAMEN TÉCNICO</text>
+        <text x="16" y="40" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="12" font-weight="bold">En Fiscalización Activa</text>
+      </g>
+
+      <!-- Stage 4 Pending -->
+      <g transform="translate(620, 0)">
+        <rect width="200" height="50" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="16" y="24" fill="#64748b" font-family="monospace" font-size="10">ETAPA 4: RESOLUCIÓN</text>
+        <text x="16" y="40" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="12">Emisión de Cédula</text>
+      </g>
+    </g>
+
+    <!-- Audit Records Table -->
+    <g transform="translate(30, 140)">
+      <rect width="820" height="240" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <rect x="0" y="0" width="820" height="38" rx="8" fill="#1e293b"/>
+      <text x="24" y="24" fill="#94a3b8" font-family="monospace" font-size="11">FOLIO INTERNO</text>
+      <text x="180" y="24" fill="#94a3b8" font-family="monospace" font-size="11">UNIDAD RESPONSABLE</text>
+      <text x="400" y="24" fill="#94a3b8" font-family="monospace" font-size="11">ESTATUS RBAC</text>
+      <text x="580" y="24" fill="#94a3b8" font-family="monospace" font-size="11">BITÁCORA AUDITORÍA</text>
+      <text x="740" y="24" fill="#94a3b8" font-family="monospace" font-size="11">ACCIÓN</text>
+
+      <!-- Row 1 -->
+      <g transform="translate(0, 48)">
+        <text x="24" y="20" fill="#38bdf8" font-family="monospace" font-size="12">EXP-2026-0814</text>
+        <text x="180" y="20" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12">Dirección General de Obras</text>
+        <text x="400" y="20" fill="#34d399" font-family="-apple-system, sans-serif" font-size="12">● Aprobado por Comité</text>
+        <text x="580" y="20" fill="#cbd5e1" font-family="monospace" font-size="11">Hash: 8f3a9e... SHA-256</text>
+        <rect x="730" y="4" width="70" height="24" rx="4" fill="#3b82f6"/>
+        <text x="744" y="20" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="11">Ver Cédula</text>
+      </g>
+      <line x1="16" y1="84" x2="804" y2="84" stroke="#1e293b" stroke-width="1"/>
+
+      <!-- Row 2 -->
+      <g transform="translate(0, 94)">
+        <text x="24" y="20" fill="#38bdf8" font-family="monospace" font-size="12">EXP-2026-0815</text>
+        <text x="180" y="20" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12">Secretaría de Finanzas</text>
+        <text x="400" y="20" fill="#fbbf24" font-family="-apple-system, sans-serif" font-size="12">⏳ En Revisión Contable</text>
+        <text x="580" y="20" fill="#cbd5e1" font-family="monospace" font-size="11">Hash: e194b7... SHA-256</text>
+        <rect x="730" y="4" width="70" height="24" rx="4" fill="#1e293b"/>
+        <text x="746" y="20" fill="#94a3b8" font-family="-apple-system, sans-serif" font-size="11">Auditar</text>
+      </g>
+      <line x1="16" y1="130" x2="804" y2="130" stroke="#1e293b" stroke-width="1"/>
+
+      <!-- Row 3 -->
+      <g transform="translate(0, 140)">
+        <text x="24" y="20" fill="#38bdf8" font-family="monospace" font-size="12">EXP-2026-0816</text>
+        <text x="180" y="20" fill="#f8fafc" font-family="-apple-system, sans-serif" font-size="12">Órgano de Control Interno</text>
+        <text x="400" y="20" fill="#34d399" font-family="-apple-system, sans-serif" font-size="12">● Certificación Plena</text>
+        <text x="580" y="20" fill="#cbd5e1" font-family="monospace" font-size="11">Hash: 3c90df... SHA-256</text>
+        <rect x="730" y="4" width="70" height="24" rx="4" fill="#3b82f6"/>
+        <text x="744" y="20" fill="#ffffff" font-family="-apple-system, sans-serif" font-size="11">Ver Cédula</text>
+      </g>
+    </g>
+  </g>
+</svg>
