@@ -4,7 +4,7 @@ export const experienceData = {
   es: {
     sectionTitle: "Sobre mi experiencia",
     heading: "Experiencia que se convierte en soluciones.",
-    bio: "Soy un profesional especializado en desarrollo Full Stack y arquitectura de software, con experiencia en la creación de aplicaciones web, plataformas empresariales y sistemas institucionales. A lo largo de mi trayectoria he participado en proyectos de distinta complejidad, desde soluciones comerciales hasta sistemas críticos de gestión, integrando tecnologías modernas, automatización e inteligencia artificial.",
+    bio: "Soy un profesional especializado en desarrollo Full Stack y arquitectura de software, con experiencia en la creación de aplicaciones web, plataformas empresariales, ecosistemas WordPress / WooCommerce a medida y sistemas institucionales. A lo largo de mi trayectoria he participado en proyectos de distinta complejidad, desde soluciones comerciales hasta sistemas críticos de gestión, integrando tecnologías modernas, automatización e inteligencia artificial.",
     pillars: [
       {
         title: "Arquitectura de Software",
@@ -21,6 +21,14 @@ export const experienceData = {
         iconName: "Layers",
         metric: "Full Lifecycle",
         tags: ["Laravel", "React", "TypeScript", "Django", "Inertia.js"],
+      },
+      {
+        title: "WordPress, WooCommerce & Elementor",
+        description:
+          "Desarrollo e implementación de soluciones CMS y E-commerce a medida, maquetación avanzada y widgets personalizados con Elementor Pro, arquitecturas Headless (WordPress + React), plugins a medida y pasarelas de pago optimizadas.",
+        iconName: "ShoppingCart",
+        metric: "Custom & Headless",
+        tags: ["WordPress", "WooCommerce", "Elementor Pro", "Headless CMS", "Custom Themes", "Plugins"],
       },
       {
         title: "Integraciones de Sistemas y APIs",
@@ -59,7 +67,7 @@ export const experienceData = {
   en: {
     sectionTitle: "About My Experience",
     heading: "Experience that translates into solutions.",
-    bio: "I am a seasoned professional specialized in Full Stack development and software architecture, with extensive experience engineering web applications, enterprise platforms, and institutional systems. Throughout my career, I have contributed to diverse projects ranging from commercial products to mission-critical management platforms, integrating modern stacks, process automation, and artificial intelligence.",
+    bio: "I am a seasoned professional specialized in Full Stack development and software architecture, with extensive experience engineering web applications, enterprise platforms, custom WordPress / WooCommerce ecosystems, and institutional systems. Throughout my career, I have contributed to diverse projects ranging from commercial products to mission-critical management platforms, integrating modern stacks, process automation, and artificial intelligence.",
     pillars: [
       {
         title: "Software Architecture",
@@ -76,6 +84,14 @@ export const experienceData = {
         iconName: "Layers",
         metric: "Full Lifecycle",
         tags: ["Laravel", "React", "TypeScript", "Django", "Inertia.js"],
+      },
+      {
+        title: "WordPress, WooCommerce & Elementor",
+        description:
+          "End-to-end bespoke CMS and e-commerce solutions, advanced page-building and custom dynamic widgets with Elementor Pro, Headless WordPress (React integration), performant custom plugins, and smooth checkout flow implementations.",
+        iconName: "ShoppingCart",
+        metric: "Custom & Headless",
+        tags: ["WordPress", "WooCommerce", "Elementor Pro", "Headless CMS", "Custom Themes", "Plugins"],
       },
       {
         title: "Systems & API Integrations",

@@ -55,6 +55,7 @@ export const techIntro = {
         items: [
           { name: 'WordPress Avanzado', category: 'cms-ecommerce', featured: true, description: 'Desarrollo a nivel de código sin plantillas sobrecargadas' },
           { name: 'WooCommerce', category: 'cms-ecommerce', featured: true, description: 'Comercio electrónico escalable y a medida' },
+          { name: 'Elementor Pro', category: 'cms-ecommerce', featured: true, description: 'Maquetación avanzada, custom widgets y layouts dinámicos' },
           { name: 'Desarrollo de Plugins', category: 'cms-ecommerce', featured: true, description: 'Módulos funcionales personalizados desde cero' },
           { name: 'Temas Personalizados', category: 'cms-ecommerce', featured: false, description: 'Interfaces a medida con máxima velocidad y Core Web Vitals' },
           { name: 'Arquitecturas Headless', category: 'cms-ecommerce', featured: true, description: 'WordPress como backend desacoplado consumido por React' },
@@ -165,6 +166,7 @@ export const techIntro = {
         items: [
           { name: 'WordPress Avanzado', category: 'cms-ecommerce', featured: true, description: 'Code-level customization without bloated themes or plugins' },
           { name: 'WooCommerce', category: 'cms-ecommerce', featured: true, description: 'Scalable e-commerce and custom product engines' },
+          { name: 'Elementor Pro', category: 'cms-ecommerce', featured: true, description: 'Advanced design systems, custom widgets, and dynamic layouts' },
           { name: 'Desarrollo de Plugins', category: 'cms-ecommerce', featured: true, description: 'Bespoke functional plugins engineered from the ground up' },
           { name: 'Temas Personalizados', category: 'cms-ecommerce', featured: false, description: 'Handcrafted themes with strict Core Web Vitals compliance' },
           { name: 'Arquitecturas Headless', category: 'cms-ecommerce', featured: true, description: 'Decoupled WordPress API backing dynamic React frontends' },
